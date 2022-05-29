@@ -1,36 +1,23 @@
-# flutterappdemo
+# HXPT TPM Flutter APP
 
-A new Flutter application.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-
-## Flutter: 由谷歌开发的开源移动应用软件开发工具包，用于为Android、iOS、 Windows、Mac、Linux、Google Fuchsia开发应用
-
-## Dart是一种开源通用编程语言，它最初是由Google开发
-
-## Fish redux: 阿里闲鱼团队的flutter的开发框架，也是flutter开发使用较为广泛的框架
+## 相关技术
+### Flutter
+由谷歌开发的开源移动应用软件开发工具包，用于为Android、iOS、 Windows、Mac、Linux、Google Fuchsia开发应用
+### Dart
+Dart是一种开源通用编程语言，它最初是由Google开发
+### Fish redux
+阿里闲鱼团队的flutter的开发框架，也是flutter开发使用较为广泛的框架
 目录lib下分多个包，然后右键 new 选择 FishReduxTemplate，选择page选项
 这个包下有6个dart文件：action、effect、page、reducer、state、view。
 一个page是由state 、view、effect、reducer组成。
 
-## 模块内dart文件
-page.dart: 界面、函数等全局定义
-view.dart: 界面实现UI/UE
-reducer.dart: 函数定义
-effect.dart: 函数实现
-action.dart: 函数接口
-state.dart: 保存数据及状态值
+模块内dart文件说明
+>>page.dart: 界面、函数等全局定义
+>>view.dart: 界面实现UI/UE
+>>reducer.dart: 函数定义
+>>effect.dart: 函数实现
+>>action.dart: 函数接口
+>>state.dart: 保存数据及状态值
 
 触发UI上面的交互事件，并context.dispatch一个意图给到effect，而这个意图就是action，根据需要在action.dart中进行声明；
 effect根据意图来进行数据的读取、创建，亦或者进行页面的跳转，这里重点说明effect不对state中数据进行处理；
@@ -56,8 +43,5 @@ lib/category_new     : 中间一级目录       twoPlusCategory        dirTwoPlu
 lib/category_two     : 最后一级目录       secondChildCategory    dirThrees       dirThreePage
 lib/category_three   : 上传界面,跳转功能   categoryThreePage                      uploadPage
 lib/uploadPicture    : 实际上传页面。实现上传功能
-
-
-
 lib/model/HomeResModel.dart: Home接口返回数据定义
 
