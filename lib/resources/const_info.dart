@@ -6,7 +6,6 @@ class ConstInfo {
   static const int UPLOAD_WORK_PHOTO_INTERVAL = 600;
   static const String AMAP_IOS_KEY = "";
 
-  /// 20220321: Adward 测试环境
   static const String bastPath = 'http://192.168.1.11';
   static const bool isDownloadExamplePic = true;
 
