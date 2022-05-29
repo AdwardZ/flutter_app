@@ -36,12 +36,12 @@ lib/resources        : 配置信息。app server端URL配置等
 lib/utils            : 工具包  
 
 ## 20200520 修改后                                              数据
-lib/firstPage        : Home界面= 登陆成功后首页                   
-lib/one_list         : 基站目录 Site                            appSites       dirSitePage
-lib/category         : 第一级目录         childCategory          dirTwos        dirOnePage
-lib/category_new     : 中间一级目录       twoPlusCategory        dirTwoPluss     dirTwoPage  从category拷贝。 插入目录(20200520新增)
-lib/category_two     : 最后一级目录       secondChildCategory    dirThrees       dirThreePage
-lib/category_three   : 上传界面,跳转功能   categoryThreePage                      uploadPage
-lib/uploadPicture    : 实际上传页面。实现上传功能
-lib/model/HomeResModel.dart: Home接口返回数据定义
+lib/firstPage        : Home界面= 登陆成功后首页                    
+lib/one_list         : 基站目录 Site                            appSites       dirSitePage  
+lib/category         : 第一级目录         childCategory          dirTwos        dirOnePage   
+lib/category_new     : 中间一级目录       twoPlusCategory        dirTwoPluss     dirTwoPage  从category拷贝。 插入目录(20200520新增)   
+lib/category_two     : 最后一级目录       secondChildCategory    dirThrees       dirThreePage  
+lib/category_three   : 上传界面,跳转功能   categoryThreePage                      uploadPage   
+lib/uploadPicture    : 实际上传页面。实现上传功能   
+lib/model/HomeResModel.dart: Home接口返回数据定义   
 
