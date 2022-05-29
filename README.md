@@ -24,16 +24,16 @@ effect根据意图来进行数据的读取、创建，亦或者进行页面的�
 effect中得到的数据通过context.dispatch传递给reducer，而reducer是针对state中相关数据进行处理的，并返回新的state，从而触发页面的刷新。
 
 ## 功能模块
-lib/login            : 登录界面
-lib/firstPage        : Home界面= 登陆成功后首页
-lib/one_list         : 一级目录 = 基站页面 Site
-lib/category         : 二级目录 = 目录列表 Two
-lib/category_two     : 三级目录 = 目录列表 Third
-lib/category_three   : 上传界面，跳转功能
-lib/uploadPicture    : 实际上传页面。实现上传功能
-lib/Api              : 与服务端各接口URL定义
-lib/resources        : 配置信息。app server端URL配置等
-lib/utils            : 工具包
+lib/login            : 登录界面  
+lib/firstPage        : Home界面= 登陆成功后首页  
+lib/one_list         : 一级目录 = 基站页面 Site  
+lib/category         : 二级目录 = 目录列表 Two  
+lib/category_two     : 三级目录 = 目录列表 Third  
+lib/category_three   : 上传界面，跳转功能  
+lib/uploadPicture    : 实际上传页面。实现上传功能  
+lib/Api              : 与服务端各接口URL定义  
+lib/resources        : 配置信息。app server端URL配置等  
+lib/utils            : 工具包  
 
 ## 20200520 修改后                                              数据
 lib/firstPage        : Home界面= 登陆成功后首页                   
