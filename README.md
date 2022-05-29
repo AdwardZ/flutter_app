@@ -12,12 +12,12 @@ Dart是一种开源通用编程语言，它最初是由Google开发
 一个page是由state 、view、effect、reducer组成。
 
 模块内dart文件说明
->>page.dart: 界面、函数等全局定义
->>view.dart: 界面实现UI/UE
->>reducer.dart: 函数定义
->>effect.dart: 函数实现
->>action.dart: 函数接口
->>state.dart: 保存数据及状态值
+* page.dart: 界面、函数等全局定义
+* view.dart: 界面实现UI/UE
+* reducer.dart: 函数定义
+* effect.dart: 函数实现
+* action.dart: 函数接口
+* state.dart: 保存数据及状态值
 
 触发UI上面的交互事件，并context.dispatch一个意图给到effect，而这个意图就是action，根据需要在action.dart中进行声明；
 effect根据意图来进行数据的读取、创建，亦或者进行页面的跳转，这里重点说明effect不对state中数据进行处理；
