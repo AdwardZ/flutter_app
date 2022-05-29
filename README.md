@@ -44,4 +44,3 @@ lib/category_two     : 最后一级目录       secondChildCategory    dirThrees
 lib/category_three   : 上传界面,跳转功能   categoryThreePage                      uploadPage   
 lib/uploadPicture    : 实际上传页面。实现上传功能   
 lib/model/HomeResModel.dart: Home接口返回数据定义   
-
